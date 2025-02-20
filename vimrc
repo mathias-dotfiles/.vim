@@ -9,6 +9,9 @@ set shiftwidth=4
 set shiftround
 set expandtab
 set autoindent
+set textwidth=80  " Set the maximum width for columns to 80 characters
+set wrap          " Enable soft wrapping
+set linebreak     " Break lines at convenient points (whitespace)
 
 " Syntax Highlight and Interface
 syntax on
@@ -59,7 +62,7 @@ hi User1 ctermfg=007 ctermbg=239 guibg=#4e4e4e guifg=#adadad
 hi User2 ctermfg=007 ctermbg=236 guibg=#303030 guifg=#adadad
 hi User3 ctermfg=236 ctermbg=236 guibg=#303030 guifg=#303030
 hi User4 ctermfg=239 ctermbg=239 guibg=#4e4e4e guifg=#4e4e4e
-hi User5 ctermfg=231 ctermbg=032 guibg=231 guifg=032
+hi User5 ctermfg=231 ctermbg=032 guibg=#ffffff guifg=#3a84cf
 "End StatusLine
 
 
